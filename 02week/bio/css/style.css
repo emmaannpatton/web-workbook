@@ -1,0 +1,31 @@
+
+
+header{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40pt;
+  color: white;
+  text-shadow: 2px 2px #d36e70;
+}
+
+body{
+  background-image: url("floral.png");
+}
+
+nav{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20pt;
+  color: gray;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14pt;
+  color: white;
+}
+
+sidebar{
+  float: top;
+  width: 200px;
+  height: 300px;
+  background-color: none;
+}
