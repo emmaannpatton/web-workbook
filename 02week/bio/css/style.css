@@ -1,46 +1,49 @@
 body{
   background-image: url(https://scontent-dfw5-2.xx.fbcdn.net/v/t31.0-8/20729028_10209802247754111_5422414902008708058_o.jpg?_nc_cat=0&oh=adb856bb16729878a1c18b6492d3dab2&oe=5BC6D558);
-  background-repeat: repeat-x;
   background-position: top right;
   background-attachment: scroll;
   background-position: center;
   min-height: 1000px;
 }
 
-header{
+.header{
+  text-align: center;
   color: black;
   font-family: 'Lato', sans-serif;
-  border-style: transparent;
   font-size: 50px;
-  width: 320px;
+  float: center;
+  width: 400px;
   padding-left: 40px;
   padding-top:10px;
   padding-bottom:40px;
-  margin-left: 600px;
-  margin-top: 100px;
-  background: hsla(0, 100%, 100%, 0.6)
+  /* margin-left: 600px; */
+  margin-right: 100px;
+  margin-top: 190px;
+  text-shadow: 2px 2px white;
 }
 
-p{
+.aboutme{
+  float: right;
+  text-align: center;
   color: black;
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
   border-style: transparent;
   font-size: 20px;
-  width: 320px;
-  padding-left: 40px;
-  padding-top:10px;
-  padding-bottom:40px;
-  margin-left: 600px;
-  margin-top: 40px;
+  width: 260px;
+  padding-left: 50px;
+    padding-right: 50px;
+  padding-top:50px;
+  padding-bottom:50px;
+  /* margin-top: 50px; */
+  margin-right: 250px;
   background: hsla(0, 100%, 100%, 0.6)
 }
 
-footer{
-  padding-left: 40px;
-  padding-top:10px;
-  padding-bottom:40px;
-  margin-left: 650px;
-  margin-top: 80px;
-  font-family: 'Arial', sans-serif;
-  color: white;
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
 }
