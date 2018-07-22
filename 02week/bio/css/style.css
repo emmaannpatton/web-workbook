@@ -12,6 +12,14 @@ body{
   background-color: #66cc99;
 }
 
+p{
+ text-align: center;
+ color: white;
+ text-shadow: 1px 1px gray;
+ font-family: 'Sacramento', cursive;
+ font-size: 25pt;
+
+}
 nav{
   font-family: 'Poppins', sans-serif;
   font-size: 20pt;
@@ -22,42 +30,52 @@ nav{
 h1{
   font-family: 'Poppins', sans-serif;
   font-size: 16pt;
-  color: white;
+  color: #d36e70;
   padding-left: 5px;
+  text-shadow: 1px 1px white;
+  text-align: center;
+}
+main{
+  float: center;
+  margin-left: 55px;
+  margin-right: 55px
+}
+section{
+    font-family: 'Georgia', serif;
+    font-size: 12pt;
+    border: solid 3px white;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.25)
+  }
+
+  section:nth-child(5){
+    padding-bottom: 20px;
+  }
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 11pt;
+  color: #d36e70;
+  padding-left: 5px;
+  text-shadow: 1px 1px gray;
+  text-align: center;
+}
+a:link{
+  color: navy;
+  text-decoration: none;
 }
 
-sidebar{
-    border: solid 3px white;
-    margin: 100px;
-    float: right;
+a:hover{
+  color: #d36e70;
 }
 
-.WT{
-    border: solid 3px white;
-    margin: 100px;
-}
-.Blogs{
-    border: solid 3px white;
-    margin: 100px;
-}
-.TheBison{
-    border: solid 3px white;
-    margin: 100px;
-}
-.Academia{
-    border: solid 3px white;
-    margin: 100px;
+a:linkvisited{
+  text-decoration: none;
+  decoration: none;
 }
 
 article{
   padding-left: 5px;
-}
-p{
-  padding-left: 5px;
-}
-sidebar{
-  float: top;
-  width: 200px;
-  height: 300px;
-  background-color: none;
 }
