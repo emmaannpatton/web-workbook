@@ -7,19 +7,15 @@ body{
 }
 
 .header{
-  text-align: center;
+  text-align: left;
   color: black;
   font-family: 'Lato', sans-serif;
-  font-size: 50px;
-  float: center;
+  font-size: 88px;
   width: 400px;
-  padding-left: 40px;
-  padding-top:10px;
-  padding-bottom:40px;
   /* margin-left: 600px; */
   margin-right: 100px;
-  margin-top: 190px;
-  text-shadow: 2px 2px white;
+  margin-top: 10px;
+  text-shadow: 2px 2px pink;
 }
 
 .aboutme{
@@ -32,11 +28,10 @@ body{
   font-size: 20px;
   width: 260px;
   padding-left: 50px;
-    padding-right: 50px;
-  padding-top:50px;
+  padding-right: 50px;
   padding-bottom:50px;
-  /* margin-top: 50px; */
-  margin-right: 250px;
+  padding-top: 60px;
+  margin-right: 60px;
   background: hsla(0, 100%, 100%, 0.6)
 }
 
