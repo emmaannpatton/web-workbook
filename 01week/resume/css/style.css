@@ -1,0 +1,46 @@
+header{
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 20px;
+  color: gray;
+  text-shadow: 1px 1px red;
+  font-size: 25pt;
+}
+
+p{
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: red;
+  font-size: 14pt;
+  text-decoration: inherit;
+
+}
+body{
+background-color: white;
+font-family: 'Arial', sans-serif;
+}
+
+section{
+  font-family: 'Arial', sans-serif;
+}
+
+article{
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h2{
+  color: red;
+}
+
+aside{
+
+}
+
+ul{
+  color: black;
+}
+
+#ed{
+    font-family: 'Arial', sans-serif;
+}
