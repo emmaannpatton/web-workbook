@@ -7,9 +7,13 @@ header{
   font-size: 25pt;
 }
 
+article{
+  text-align: left;
+}
+
 p{
   font-family: 'Arial', sans-serif;
-  text-align: center;
+  text-align: left;
   color: red;
   font-size: 14pt;
   text-decoration: inherit;
