@@ -1,48 +1,44 @@
-
-
-
-header{
-  font-family: 'Arial', sans-serif;
-  text-align: center;
-  margin: 20px;
-  color: white;
-  text-shadow: 1px 1px red;
-  font-size: 25pt;
-}
-
-p{
-  font-family: 'Arial', sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 14pt;
-  text-decoration: inherit;
-
-}
 body{
-background-color: teal;
-font-family: 'Arial', sans-serif;
+  background-image: url(https://scontent-dfw5-2.xx.fbcdn.net/v/t31.0-8/20729028_10209802247754111_5422414902008708058_o.jpg?_nc_cat=0&oh=adb856bb16729878a1c18b6492d3dab2&oe=5BC6D558);
+  background-position: top right;
+  background-attachment: scroll;
+  background-position: center;
+  min-height: 1000px;
 }
 
-section{
-  font-family: 'Arial', sans-serif;
-}
-
-article{
-  font-family: 'Arial', sans-serif;
-}
-
-h2{
-  color: white;
-}
-
-aside{
-  float: right;
-}
-
-ul{
+.header{
+  text-align: left;
   color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 88px;
+  width: 400px;
+  /* margin-left: 600px; */
+  margin-right: 100px;
+  margin-top: 10px;
+  text-shadow: 2px 2px pink;
 }
 
-#ed{
-    font-family: 'Arial', sans-serif;
+.aboutme{
+  float: right;
+  text-align: center;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  border-style: transparent;
+  font-size: 20px;
+  width: 260px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom:50px;
+  padding-top: 60px;
+  margin-right: 60px;
+  background: hsla(0, 100%, 100%, 0.6)
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
 }
