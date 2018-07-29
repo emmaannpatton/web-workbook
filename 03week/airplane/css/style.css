@@ -117,4 +117,5 @@ button{
   margin-top: 10px;
   font-family: 'Roboto', sans-serif;
   color: white;
+  border-radius: 5px; 
 }
