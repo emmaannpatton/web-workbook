@@ -28,7 +28,6 @@ a{
   text-decoration: none;
   font-size: 10pt;
   padding: 10px;
-  /* -this doesn't do anything...? */
 }
 
 .icons{
@@ -67,12 +66,13 @@ a{
 
 article{
   background-color: rgb(27, 55, 82);
-  width: 30%;
+  width: 50%;
   margin-top: 150px;
   margin-left: 90px;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
   font-size: 10pt;
+  padding-bottom: 10px;
 }
 
 .boxes> div{
@@ -106,16 +106,17 @@ article{
   margin-right: 60px;
 }
 
-button{
-  display: flex;
-  position: relative;
-  padding: 3%;
-  background-color: rgb(43, 104, 183);
-  width: 95%;
-  flex-direction: column;
-  margin: 10px;
-  margin-top: 10px;
+
+.button{
   font-family: 'Roboto', sans-serif;
+  padding: 3%;
+  margin: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgb(43, 104, 183);
+}
+
+.button > a{
   color: white;
-  border-radius: 5px; 
 }
