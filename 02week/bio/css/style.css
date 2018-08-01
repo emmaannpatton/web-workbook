@@ -1,44 +1,81 @@
-body{
-  background-image: url(https://scontent-dfw5-2.xx.fbcdn.net/v/t31.0-8/20729028_10209802247754111_5422414902008708058_o.jpg?_nc_cat=0&oh=adb856bb16729878a1c18b6492d3dab2&oe=5BC6D558);
-  background-position: top right;
-  background-attachment: scroll;
-  background-position: center;
-  min-height: 1000px;
-}
 
-.header{
-  text-align: left;
-  color: black;
-  font-family: 'Lato', sans-serif;
-  font-size: 88px;
-  width: 400px;
-  /* margin-left: 600px; */
-  margin-right: 100px;
-  margin-top: 10px;
-  text-shadow: 2px 2px pink;
-}
-
-.aboutme{
-  float: right;
+header{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40pt;
+  color: white;
+  text-shadow: 2px 2px #d36e70;
   text-align: center;
-  color: black;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  border-style: transparent;
-  font-size: 20px;
-  width: 260px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom:50px;
-  padding-top: 60px;
-  margin-right: 60px;
-  background: hsla(0, 100%, 100%, 0.6)
 }
 
+body{
+  background-color: #66cc99;
+}
+
+p{
+ text-align: center;
+ color: white;
+ text-shadow: 1px 1px gray;
+ font-family: 'Sacramento', cursive;
+ font-size: 25pt;
+
+}
+nav{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20pt;
+  color: gray;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16pt;
+  color: #d36e70;
+  padding-left: 5px;
+  text-shadow: 1px 1px white;
+  text-align: center;
+}
+main{
+  float: center;
+  margin-left: 55px;
+  margin-right: 55px
+}
+section{
+    font-family: 'Georgia', serif;
+    font-size: 12pt;
+    border: solid 3px white;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.25)
+  }
+
+  section:nth-child(5){
+    padding-bottom: 20px;
+  }
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 11pt;
+  color: #d36e70;
+  padding-left: 5px;
+  text-shadow: 1px 1px gray;
+  text-align: center;
+}
 a:link{
+  color: navy;
   text-decoration: none;
 }
 
 a:hover{
-  color: red;
+
+  color: #d36e70;
+}
+
+a:linkvisited{
+  text-decoration: none;
+  decoration: none;
+}
+
+article{
+  padding-left: 5px;
 }
