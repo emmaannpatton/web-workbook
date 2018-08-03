@@ -1,0 +1,35 @@
+
+body{
+  display: flex;
+  contains everything
+}
+
+header{
+  display:flex;
+  background-color: teal;
+  min-height: 200px;
+  min-width: 700px;
+
+}
+
+.column1{
+  width:200px;
+  color: #ffff;
+  text-align: center;
+}
+
+column2
+
+column3
+
+each column is its own container
+
+
+@media (max-width: 576px){
+  .header{
+    background: orange;
+  }
+}
+
+if you build it desktop first, your media quueries will be MAX-width, if you start with 
+mobile view, your media queries will be MIN-width!
