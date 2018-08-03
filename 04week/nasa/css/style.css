@@ -23,7 +23,7 @@ body{
 
 .secondbox{
   display: flex;
-background: gray;
+background: rgb(230, 230, 230);
 width: 850px;
 height: 324px;
 margin-top: 20px;
@@ -31,39 +31,56 @@ margin-top: 20px;
 
 .column1{
   display: flex;
-  background: lightblue;
+  background: rgb(230, 230, 230);
   width: 270px;
-  justify-content: center;
   align-items: center;
   margin-right: 20px;
   flex-direction: column;
+  padding-left: 5px;
 }
 
 .column2{
   display: flex;
-  background: lightpink;
+  background: rgb(230, 230, 230);
   width: 270px;
-  justify-content: center;
   align-items: center;
   margin-right: 20px;
 }
 .column3{
   display: flex;
-  background: lightgreen;
+  background: rgb(230, 230, 230);
   width: 270px;
-  justify-content: center;
   align-items: center;
 }
 
-.text1 , .text2, .text3{
+.text1, .text2, .text3{
   display: flex;
   flex-direction: column;
   font-family: 'Arial', sans-serif;
   align-self: flex-start;
+  line-height: 1px;
+  padding: 5%;
+  width: 80%;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.text11, .text22{
+  line-height: 80%;
+  margin-top: 10%;
+}
+
+.text33{
+  line-height: 100%;
+  margin-top: 10%;
 }
 
 .message{
-  height: 100px;
+  height: 180px;
+  width: 100%;
 }
 
 .link{
@@ -72,7 +89,7 @@ margin-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 4%;
-    padding-bottom: 4%;
+  padding-bottom: 4%;
   margin: 0 auto;
   justify-content: flex-start;
   font-family: 'Arial', sans-serif;
