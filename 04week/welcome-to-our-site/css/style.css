@@ -1,28 +1,85 @@
 
-body{
+.flexboxcontainer{
   display: flex;
-  contains everything
+  width: 100%;
+}
+.bigbox{
+  display:flex;
+  background-color: rgb(99, 202, 192);
+  min-height: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30pt;
+  font-family: 'Merriweather', serif;
 }
 
-header{
-  display:flex;
-  background-color: teal;
-  min-height: 200px;
-  min-width: 700px;
-
+.columns{
+  display: flex;
+  align-items: center;
+  min-width: 100%;
 }
 
 .column1{
-  width:200px;
-  color: #ffff;
+  display: flex;
+  width:33.333%;
+  background-color: black;
   text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-column2
+.column2{
+  display: flex;
+  width:33.333%;
+  background-color: black;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
-column3
 
-each column is its own container
+.column3{
+  display: flex;
+  width:33.333%;
+  background-color: black;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2{
+  display: flex;
+  color: white;
+  font-family: 'Merriweather', serif;
+  justify-content: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.column1 > h2{
+  border-top: 20px solid rgb(86, 167, 216);
+}
+
+.column2 > h2{
+  border-top: 20px solid rgb(228, 111, 66);
+}
+
+.column3 > h2{
+  border-top: 20px solid rgb(99, 202, 192);
+}
+
+.text1, .text2, .text3{
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Merriweather', serif;
+}
 
 
 @media (max-width: 576px){
@@ -31,5 +88,5 @@ each column is its own container
   }
 }
 
-if you build it desktop first, your media quueries will be MAX-width, if you start with 
+if you build it desktop first, your media quueries will be MAX-width, if you start with
 mobile view, your media queries will be MIN-width!
