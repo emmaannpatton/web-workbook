@@ -83,7 +83,7 @@ h2{
 
 
 @media (max-width: 576px){
-  .header{
+  .bigbox{
     background: orange;
   }
 }
