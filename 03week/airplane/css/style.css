@@ -1,0 +1,122 @@
+header{
+  background-color: rgb(33, 58, 83);
+  url("../img/logo.png")
+  width: 100%;
+  border-bottom: 1px solid white;
+  position: relative;
+  color: white;
+}
+
+body{
+  background-image: url("../img/airline.jpg");
+  margin: 0;
+  color: white;
+}
+
+nav{
+  position: absolute;
+  width: 100%;
+  right: 1%;
+  left: 60%;
+  top: 5%;
+  color: white;
+}
+
+a{
+  color: rgb(61, 139, 128);
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 10pt;
+  padding: 10px;
+}
+
+.icons{
+  display: flex;
+  position: relative;
+}
+
+.plane{
+  background-color: rgb(38, 99, 176);
+  position: relative;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-top-left-radius: 5px;
+}
+
+.hotel{
+  background-color: rgb(61, 139, 128);
+  position: relative;
+  padding-left: 42px;
+  padding-right: 41px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.car{
+  background-color: rgb(61, 139, 128);
+  position: relative;
+  padding-left: 41px;
+  padding-right: 42px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-top-right-radius: 5px;
+}
+
+article{
+  background-color: rgb(27, 55, 82);
+  width: 50%;
+  margin-top: 150px;
+  margin-left: 90px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  padding-bottom: 10px;
+}
+
+.boxes> div{
+  text-align: center;
+  display:inline-block;
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 37%;
+  position: relative;
+  margin: 5%;
+}
+
+.passenger{
+  margin: 4%;
+  padding-left: 9%
+}
+.onepassenger{
+  text-align: center;
+  display:inline-block;
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 18%;
+  position: relative;
+  margin-left: 12%;
+}
+
+.radiobuttons{
+  float: right;
+  text-align: center;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+
+.button{
+  font-family: 'Roboto', sans-serif;
+  padding: 3%;
+  margin: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgb(43, 104, 183);
+}
+
+.button > a{
+  color: white;
+}

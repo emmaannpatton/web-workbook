@@ -23,7 +23,56 @@ $(document).ready(function() {
       }
       console.log('next turn', turn)
     }
-
+    function checkWin(turn){
+      if($('[data-cell="0"]').text() === turn &&
+     $('[data-cell="1"]').text() === turn &&
+     $('[data-cell="2"]').text() === turn)
+    {
+     $('#announce-winner').text(`${turn} wins`);
+    }
+     else if ($('[data-cell="3"]').text() === turn &&
+      $('[data-cell="4"]').text() === turn &&
+      $('[data-cell="5"]').text() === turn)
+      {
+      $('#announce-winner').text(`${turn} wins`);
+      }
+    else if ($('[data-cell="6"]').text() === turn &&
+      $('[data-cell="7"]').text() === turn &&
+      $('[data-cell="8"]').text() === turn)
+      {
+      $('#announce-winner').text(`${turn} wins`);
+      }
+    else if ($('[data-cell="0"]').text() === turn &&
+      $('[data-cell="3"]').text() === turn &&
+      $('[data-cell="6"]').text() === turn)
+      {
+      $('#announce-winner').text(`${turn} wins`);
+      }
+    else if ($('[data-cell="1"]').text() === turn &&
+      $('[data-cell="4"]').text() === turn &&
+      $('[data-cell="7"]').text() === turn)
+      {
+      $('#announce-winner').text(`${turn} wins`);
+      }
+    else if ($('[data-cell="2"]').text() === turn &&
+      $('[data-cell="5"]').text() === turn &&
+      $('[data-cell="8"]').text() === turn)
+      {
+      $('#announce-winner').text(`${turn} wins`);
+      }
+    else if ($('[data-cell="0"]').text() === turn &&
+      $('[data-cell="4"]').text() === turn &&
+      $('[data-cell="8"]').text() === turn)
+      {
+      $('#announce-winner').text(`${turn} wins`);
+      }
+    else if ($('[data-cell="2"]').text() === turn &&
+      $('[data-cell="4"]').text() === turn &&
+      $('[data-cell="6"]').text() === turn)
+      {
+      $('#announce-winner').text(`${turn} wins`);
+      }
+   }
     // if(!$(this).text()){
     //   console.log($(this).text())
     //   console.log('i am being run because the value is blank')

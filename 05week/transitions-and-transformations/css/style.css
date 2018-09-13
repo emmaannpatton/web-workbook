@@ -1,0 +1,78 @@
+.allboxes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  height: 100%;
+  width: 100%; 
+}
+
+.trigger{
+  border: 3px solid red;
+}
+
+.box{
+  width: 25px;
+  height: 25px;
+  margin: 6px;
+  pointer-events: none;
+}
+
+.box1{
+  background-color: pink;
+}
+.box2{
+  background-color: yellow;
+}
+.box3{
+  background-color: green;
+}
+.box4{
+  background-color: pink;
+}
+.box5{
+  background-color: yellow;
+}
+.box6{
+  background-color: blue;
+}
+.box7{
+  background-color: pink;
+}
+.box8{
+  background-color: yellow;
+}
+.box9{
+  background-color: blue;
+}
+.box10{
+  background-color: pink;
+}
+.box11{
+  background-color: yellow;
+}
+.box12{
+  background-color: blue;
+}
+
+.box:nth-child(even){
+  transition: width 2s, height 2s, transform 2s, rotate 3s;
+}
+
+.box:nth-child(odd){
+  transition: width 2s, height 2s, transform 2s, rotate 3s;
+}
+
+.trigger:hover :nth-child(odd){
+   transform: translate(200px) rotate(180deg);
+   height: 50px;
+   width: 50px;
+}
+
+.trigger:hover :nth-child(even){
+   transform: translate(-200px) rotate(180deg);
+   height: 12.5px;
+   width: 12.5px;
+   height: 12.5px;
+   width: 12.5px;
+}

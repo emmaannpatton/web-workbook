@@ -1,0 +1,115 @@
+
+
+body{
+  margin: 0 auto;
+  width: 850px;
+}
+
+.flexboxcontainer{
+  background-image: url("../img/nasa-background.jpg");
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.header{
+  font-size: 30pt;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.secondbox{
+  display: flex;
+background: rgb(230, 230, 230);
+width: 850px;
+height: 324px;
+margin-top: 20px;
+}
+
+.column1{
+  display: flex;
+  background: rgb(230, 230, 230);
+  width: 270px;
+  align-items: center;
+  margin-right: 20px;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.column2{
+  display: flex;
+  background: rgb(230, 230, 230);
+  width: 270px;
+  align-items: center;
+  margin-right: 20px;
+}
+.column3{
+  display: flex;
+  background: rgb(230, 230, 230);
+  width: 270px;
+  align-items: center;
+}
+
+.text1, .text2, .text3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Arial', sans-serif;
+  align-self: flex-start;
+  line-height: 1px;
+  padding: 5%;
+  width: 80%;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 14pt;
+  color: black;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  color: black;
+}
+
+.text11, .text22{
+  line-height: 80%;
+  margin-top: 10%;
+}
+
+.text33{
+  line-height: 100%;
+  margin-top: 10%;
+}
+
+form{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+}
+
+.name{
+  height: 20px;
+  width: 100%;
+}
+.message{
+  height: 100px;
+  width: 100%;
+}
+
+.link{
+  display: flex;
+  background-color: gray;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+  align-content: flex-start;
+}
